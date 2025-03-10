@@ -4,7 +4,7 @@ This repository is an example setup for getting the **ESP32 Wroom DevKit** worki
 
 ---
 
-## 🚀 **Introduction**
+## **Introduction**
 If you have an **AZDelivery ESP32 Wroom DevKit** and want to:
 - Make sure your **ESP-32** is functional
 - Set it up with **PlatformIO** on **VS Code**
@@ -31,14 +31,14 @@ Before uploading code, it's important to verify that your Mac recognizes the ESP
    ```
    The ESP32 is likely `cu.usbserial-0001`, but the exact name may vary.
 
-#### **🛠️ Step 2: Install USB Drivers (If Needed)**  
+#### ** Step 2: Install USB Drivers (If Needed)**  
 If you **don’t see** a `/dev/cu.usbserial-XXXX` port, you may need to install drivers:  
 - If your ESP32 uses a **CP2102 USB-to-serial chip**, install the **[Silicon Labs CP210x driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)**.  
 - If it uses a **CH340 chip**, install the **[CH340 driver](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver)**.  
 
 After installation, **reconnect the ESP32** and try `ls /dev/cu.*` again.
 
-#### **📝 Step 3: Check Serial Communication**  
+#### ** Step 3: Check Serial Communication**  
 To ensure your ESP32 can communicate:  
 1. Open **VS Code** and go to **PlatformIO > Serial Monitor**  
    - Or run in Terminal:  
@@ -47,11 +47,11 @@ To ensure your ESP32 can communicate:
      ```
 2. If your ESP32 is detected, you should see log messages or output from your ESP32 program.
 
-✅ If you see output, **your ESP32 is functional and ready to use!** 🚀
+ If you see output, **your ESP32 is functional and ready to use** 
 
 ---
 
-## 🛠️ **Step 1: Install Prerequisites**
+##  **Step 1: Install Prerequisites**
 ### Install **VS Code** and **PlatformIO**
 1. Download **[Visual Studio Code](https://code.visualstudio.com/)**.
 2. Open VS Code and go to **Extensions** (`Ctrl+Shift+X` or `Cmd+Shift+X` on Mac).
@@ -60,7 +60,7 @@ To ensure your ESP32 can communicate:
 
 ---
 
-## 🏗️ **Step 2: Create a New PlatformIO Project**
+##  **Step 2: Create a New PlatformIO Project**
 1. Open **VS Code**.
 2. Click on **PlatformIO Home** (🔌 icon in the left sidebar).
 3. Click **New Project** and configure:
@@ -71,7 +71,7 @@ To ensure your ESP32 can communicate:
 
 ---
 
-## 💡 **Step 3: Write the LED Blink Test**
+##  **Step 3: Write the LED Blink Test**
 1. Inside your PlatformIO project, go to the `src` folder.
 2. Open `main.cpp` (or create one if it doesn’t exist).
 3. Copy and paste the following **LED Blink Test** code:
